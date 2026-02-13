@@ -4,7 +4,6 @@ A **Retrieval Augmented Generation (RAG) system** for chatting with research pap
 
 ## ✨ Features
 
-- 🆓 **Completely Free**: No API keys or paid services required
 - 🤖 **Sentence Transformers**: Uses open-source embedding models (all-MiniLM-L6-v2, all-mpnet-base-v2)
 - 🗄️ **ChromaDB**: Persistent vector storage for efficient similarity search
 - ⚡ **Performance Metrics**: Real-time tracking of latency, throughput, and memory usage
