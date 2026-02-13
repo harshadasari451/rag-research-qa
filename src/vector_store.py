@@ -111,7 +111,7 @@ class VectorStore:
         """Reset the collection (delete and recreate)."""
         try:
             self.client.delete_collection(name=self.collection_name)
-        except:
+        except Exception:
             pass
         
         self.collection = self.client.get_or_create_collection(

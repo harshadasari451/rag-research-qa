@@ -5,6 +5,7 @@ Basic tests for the RAG pipeline components.
 import os
 import sys
 import tempfile
+import traceback
 from pathlib import Path
 
 # Add src to path
@@ -198,7 +199,6 @@ def run_all_tests():
         return True
     except Exception as e:
         print(f"\n✗ TEST FAILED: {str(e)}")
-        import traceback
         traceback.print_exc()
         return False
 
